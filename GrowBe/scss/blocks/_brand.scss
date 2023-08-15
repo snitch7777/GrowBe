@@ -1,0 +1,17 @@
+.brand {
+  padding: 97px 0;
+}
+
+.brand__items {
+  display: flex;
+  justify-content: center;
+  column-gap: 3.8%;
+  row-gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.brand__img {
+  width: 13.5%;
+  object-fit: cover;
+}

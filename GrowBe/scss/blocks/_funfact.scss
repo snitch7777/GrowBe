@@ -1,0 +1,55 @@
+.funfact {
+  padding: 100px 0;
+}
+
+.funfact__items {
+  display: flex;
+  border: 2px solid #eeeeee;
+  padding: 43px 0;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.funfact__item {
+  text-align: center;
+  position: relative;
+  width: 25%;
+  &::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    background: #f25822;
+    border-radius: 50%;
+  }
+  &:nth-child(4n + 2) {
+    &::after {
+      background: #149211;
+    }
+  }
+  &:nth-child(4n + 3) {
+    &::after {
+      background: #ffc700;
+    }
+  }
+  &:last-child,
+  &:nth-child(4n + 4) {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+.funfact__item-number {
+  font-family: "Gilroy-Bold";
+  font-size: 70px;
+  line-height: 1.2;
+}
+
+.funfact__item-achievement {
+  font-size: 18px;
+  font-family: "Gilroy-SemiBold";
+}

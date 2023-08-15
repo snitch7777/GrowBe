@@ -1,0 +1,53 @@
+// base
+@import "base/fonts";
+@import "base/bootstrap-reboot";
+
+// libs
+@import "libs/icomoon";
+@import "libs/swiper";
+
+// block
+@import "blocks/container";
+@import "blocks/link";
+@import "blocks/logo";
+@import "blocks/menu";
+
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/services";
+@import "blocks/brand";
+@import "blocks/aboutus";
+@import "blocks/features";
+@import "blocks/seo";
+@import "blocks/plans";
+@import "blocks/team";
+@import "blocks/funfact";
+@import "blocks/testimonials";
+@import "blocks/blog";
+@import "blocks/social";
+@import "blocks/footer";
+@import "blocks/speed";
+
+.grid-wrapper {
+  max-width: 1200px;
+  padding: 10px;
+  background: darkgrey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: minmax(150px, auto);
+  gap: 30px;
+  margin: 0 auto;
+}
+
+.item {
+  background: darkcyan;
+  color: #fff;
+  &:nth-child(2) {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+  &:nth-child(4) {
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+  }
+}

@@ -1,0 +1,58 @@
+.link {
+  font-family: "Gilroy-Bold";
+  font-size: 15px;
+  line-height: 1.2;
+  background: #f25822;
+  padding: 16px;
+  min-width: 140px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  border: none;
+  color: #ffffff;
+  box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+}
+
+.link--small {
+  font-size: 12px;
+  line-height: 1.1;
+  min-width: 120px;
+  padding: 13px;
+  font-family: "Gilroy-Semibold";
+}
+
+.link--arrow {
+  min-width: 150px;
+  padding: 17px;
+  font-size: 13px;
+  /* position: relative; */
+  background: #f25822 url(../../images/services/vector.svg) right 25px center /
+    6px no-repeat;
+  /*  &::after {
+    content: "";
+    width: 6px;
+    height: 10px;
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-42%);
+    background: url(../../images/services/vector.svg);
+  } */
+}
+
+.link--big {
+  background: rgba(242, 88, 34, 0.25);
+  color: #f3602d;
+  min-width: 200px;
+}
+
+.link--dot {
+  color: #000000;
+  font-family: "Gilroy-Bold";
+}
+
+.link--red {
+  color: #f25822;
+  font-family: "Gilroy-Bold";
+  font-size: 11px;
+}

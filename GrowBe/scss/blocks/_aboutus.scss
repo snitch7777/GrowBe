@@ -1,0 +1,29 @@
+.about {
+  padding: 100px 0 0;
+  background: #fafafa url(../../images/about/vector.svg) center center/cover no-repeat; 
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about__inner {
+  max-width: 515px;
+  margin-top: 20px;
+}
+
+.about__title {
+  text-align: left;
+  margin-bottom: 20px;
+  max-width: 409px;
+}
+
+.about__caption {
+  margin-bottom: 35px;
+}
+
+.about__img {
+  width: 49.5%;
+}

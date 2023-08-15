@@ -1,0 +1,75 @@
+.testimonials {
+  padding: 93px 0 100px;
+  text-align: center;
+}
+
+.testimonials__title {
+  margin-bottom: 19px;
+}
+
+.testimonials__caption {
+  margin: 0 auto 55px;
+  max-width: 432px;
+}
+
+.testimonials__item {
+  padding: 28px 50px 27px;
+  border: 2px solid #eeeeee;
+  transition: 0.3s;
+}
+
+.testimonials__slider {
+  padding-bottom: 60px;
+}
+
+.swiper-slide {
+  .testimonials__item {
+    opacity: 0.5;
+  }
+}
+
+.swiper-slide-active {
+  .testimonials__item {
+    border: 2px solid #ffffff;
+    box-shadow: 15px 25px 60px -10px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+  }
+}
+
+.testimonials__item-text {
+  margin: 0 0 26px;
+  font-family: "Gilroy-Medium";
+  color: #888888;
+  position: relative;
+  &::after {
+    content: "";
+    width: 43px;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -8px;
+    background: url(../../images/testimonials/quote.svg);
+    z-index: -1;
+  }
+}
+
+.testimonials__item-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonials__item-name {
+  font-family: "Gilroy-SemiBold";
+  font-size: 13px;
+  color: #000000;
+}
+
+.testimonials__item-job {
+  font-family: "Gilroy-Medium";
+  font-size: 13px;
+  color: #888888;
+}

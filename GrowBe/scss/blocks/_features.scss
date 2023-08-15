@@ -1,0 +1,35 @@
+.features {
+  padding: 100px 0;
+}
+
+.features__title {
+  display: none;
+}
+
+.features__items {
+  display: flex;
+  gap: 30px;
+}
+
+.features__item {
+  padding: 40px 31px 25px 29px;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+  }
+}
+
+.features__item-img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 25px;
+}
+
+.features__item-title {
+  margin-bottom: 17px;
+}
+
+.features__item-text {
+  margin-bottom: 25px;
+  font-size: 15px;
+}

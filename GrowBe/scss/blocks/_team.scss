@@ -1,0 +1,56 @@
+.team {
+  padding: 86px 0 100px;
+  text-align: center;
+}
+
+.team__title {
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.team__caption {
+  max-width: 461px;
+  margin: 0 auto 52px;
+}
+
+.team__items {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.team__item {
+  border: 1px solid #eeeeee;
+  padding: 50px 20px;
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 15px 20px 50px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    .team__item-name {
+      color: #f25822;
+    }
+  }
+}
+
+.team__item-img {
+  margin-bottom: 14px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team__item-name {
+  display: block;
+  font-size: 20px;
+  font-family: "Gilroy-SemiBold";
+  color: #000000;
+}
+
+.team__item-job {
+  display: block;
+  font-size: 13px;
+  color: #888888;
+  font-family: "Gilroy-Medium";
+  margin-bottom: 17px;
+}
